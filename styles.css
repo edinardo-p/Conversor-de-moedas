@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    outline: none;
+    appearance: none;
+    
+}  
+body{
+   background-image: url(https://img.freepik.com/fotos-premium/o-conceito-de-conversor-de-moeda-entre-dolar-em-iene-e-moedas-fluindo-sobre-fundo-verde-claro_342841-27.jpg);
+   
+   background-size: 100%;
+}
+.logo-principal{
+    display: block;
+    width: 13%;
+    margin: 10px auto;
+}
+main{
+    background: #ffffff;
+    width: 275px;
+    border-radius: 5px;
+    margin: 0 auto;
+    padding: 15px 23px 24px ;
+}
+label {
+    color: #777777;
+    font-size: 14px;
+    font-weight: 400;
+    width: 100%;
+}
+select,input{
+    width: 100%;
+    height: 28px;
+    background: #ffffff;
+    border: 1px solid #bbbbbb;
+    border-radius: 4px;
+    margin-bottom: 24px;
+    appearance: none;
+    padding-left: 18px; 
+    font-size: 17px;
+    font-weight: 700;
+    color: #555555;
+}
+.botao {
+    border-radius:5px;
+    padding: 0px;
+    margin-top: 20px;
+    width: 100%;
+    height: 28px;
+    background: #772FD3;
+    font-size: 18px;
+    font-weight: 700;
+    color: #FFF;
+    
+}
+section{
+    width: 100%;
+    display: flex;
+    margin-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.valor-a-converter{
+    margin: 10px;
+    font-size: 14px;
+    font-weight: 400;    
+}
+.valor-convertido{
+    margin: 10px;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+
+.seta{
+    margin-top: 20px;
+    margin: 10px;
+    width: 30px;
+    height: 30px;
+} 
+
